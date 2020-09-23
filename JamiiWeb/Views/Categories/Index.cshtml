@@ -1,11 +1,10 @@
 ﻿@model IEnumerable<JamiiWeb.Models.Category>
 
-<h1>Please choose a product category</h1>
+<h1>Please choose a category</h1>
 
 <ul>
     @foreach (var category in Model)
     {
-        <li></li>
         <li>
             <a asp-controller="Categories" asp-action="Browse" asp-route-category="@category.Name">
                 @category.Name

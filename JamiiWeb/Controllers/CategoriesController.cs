@@ -14,7 +14,7 @@ namespace JamiiWeb.Controllers
             // crate some dummy data
             var categories = new List<Category>();
             // make 10 fake objects
-            for (int i = 0; i < 10; i++)
+            for (int i = 1; i < 11; i++)
             {
                 categories.Add(new Category() { Id = i, Name = "Category " + i.ToString() });
             }

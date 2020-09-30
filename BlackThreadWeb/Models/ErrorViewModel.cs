@@ -1,6 +1,6 @@
 using System;
 
-namespace JamiiWeb.Models
+namespace BlackThreadWeb.Models
 {
     public class ErrorViewModel
     {

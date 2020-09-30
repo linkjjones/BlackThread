@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace JamiiWeb.Models
+namespace BlackThreadWeb.Models
 {
     public class Listing
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using JamiiWeb.Models;
+using BlackThreadWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace JamiiWeb.Controllers
+namespace BlackThreadWeb.Controllers
 {
     public class CategoriesController : Controller
     {

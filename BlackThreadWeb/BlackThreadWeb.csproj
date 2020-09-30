@@ -2,7 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-JamiiWeb-188B3F3B-60AD-4063-80F9-833B6C49D62B</UserSecretsId>
+    <UserSecretsId>aspnet-BlackThreadWeb-188B3F3B-60AD-4063-80F9-833B6C49D62B</UserSecretsId>
+    <AssemblyName>BlackThreadWeb</AssemblyName>
+    <RootNamespace>BlackThreadWeb</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

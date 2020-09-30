@@ -29,5 +29,11 @@ namespace JamiiWeb.Controllers
             ViewBag.category = category;
             return View();
         }
+
+        public IActionResult AddCategory()
+        {
+            // display a view with an empty imput form to capture a new category
+            return View();
+        }
     }
 }

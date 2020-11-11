@@ -59,6 +59,7 @@ html {
 }
 
 body {
+    font-family: Commissioner;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
@@ -68,4 +69,12 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+.thumb {
+    width: 75px;
+}
+
+.navbar-light {
+    background-color: #00BCD4;
 }

@@ -13,18 +13,17 @@ namespace BlackThreadWeb.Models
         [MaxLength(255)]
         public string Name { get; set; }
 
-        public string Description { get; set; }
-
-        // format for currency
         [DisplayFormat(DataFormatString = "{0:c}")]
-        [Range(0.01, 99999)]
+        [Range(0.01, 999999)]
         public double Price { get; set; }
+
+        public string Description { get; set; }
         public string Image { get; set; }
 
-        [Display(Name = "Category")]
+        [Display(Name = "Category")]  // create more user-friendly column alias
         public int CategoryId { get; set; }
 
-        [Display(Name = "Category")]
+        // add reference to parent object
         public Category Category { get; set; }
     }
 }
